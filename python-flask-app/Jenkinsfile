@@ -29,7 +29,7 @@ pipeline {
               ${scannerHome}/bin/sonar-scanner \\
                 -Dsonar.projectKey=flask-gitops-app \\
                 -Dsonar.projectName='Flask GitOps App' \\
-                -Dsonar.sources=app/ \\
+                --Dsonar.sources=python-flask-app/app/ \\
                 -Dsonar.language=py \\
                 -Dsonar.python.version=3.11 \\
                 -Dsonar.sourceEncoding=UTF-8
