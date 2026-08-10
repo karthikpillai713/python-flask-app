@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: your-docker-hub-username/static-website:latest
+        image: karthik713/static-website:22
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
